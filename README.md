@@ -4,9 +4,10 @@ A basic study of bound states, energy levels given the schrödinger's equation, 
 ## Theory
 We analyse a static potential V(x) a very particular case in reality.
 we seek a solution to the separable Schrodinger equation in x,t:
-'''
+
+$$
 \psi(x) = \phi(x) T (t)
-'''
+$$
 Given the schrodinger's equation:
 
 
