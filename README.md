@@ -38,10 +38,9 @@ is time indipendent.
 
 ## Discretization
 
-## Installation
-for this particular case we'll need only the most common libraries of C++ and Python
+## INSTALLATION
+For this particular case we'll need only the most common libraries of C++ and Python.
 
-## HOW TO USE
 The project include:
 - main part (calculations and output) written in C++ 
 - Data visualization written in Python using matplotlib
