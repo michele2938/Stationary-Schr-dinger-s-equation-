@@ -46,9 +46,10 @@ The project include:
 - main part (calculations and output) written in C++ 
 - Data visualization written in Python using matplotlib
 
-Installing Matplotlib:
-
-
+Installing Python dependences:
+```bash
+pip install -r libraries.txt
+```
 Clone the repo:
 ```bash
 git clone https://github.com/michele2938/nome-progetto.git
@@ -69,7 +70,9 @@ c++ file.cpp -o main.exe
 ```
 
 ### compile Python
-
+```bash
+python3 plot.py
+```
 
 ## Results
 
