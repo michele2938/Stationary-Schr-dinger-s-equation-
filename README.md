@@ -1,5 +1,5 @@
 # Stationary-Schrodinger-equation
-A basic study of bound states, energy levels given the schrödinger's equation, using a static potential (time-indipendent)
+A basic study of bound states and energy levels given the schrödinger's equation, using a static potential (time-indipendent)
 
 ## Theory
 We analyse a static potential V(x) a very particular case in reality.
@@ -36,6 +36,21 @@ These are considered stationary because
 ```
 is time indipendent.
 
+## Discretization
 
 ## Installation
 for this particular case we'll need only the most common libraries of C++ and Python
+
+## Execution
+CLone the repo
+```bash
+git clone https://github.com/michele2938/nome-progetto.git
+cd nome 
+```
+compile:
+using the makefile:
+
+## Results
+
+## References
+Quantum Mechanics  - Cohen-Tannoudji
