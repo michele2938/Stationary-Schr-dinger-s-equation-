@@ -1,4 +1,4 @@
-# Stationary-Schrodinger's-equation-
+# Stationary-Schrodinger-equation
 A basic study of bound states, energy levels given the schrödinger's equation, using a static potential (time-indipendent)
 
 ## Theory
