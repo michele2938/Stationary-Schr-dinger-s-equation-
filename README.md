@@ -51,9 +51,10 @@ pip install -r libraries.txt
 ```
 Clone the repo:
 ```bash
-git clone https://github.com/michele2938/nome-progetto.git
-cd nome 
+git clone https://github.com/michele2938/Stationary-Schrodinger-equation.git
+cd Stationary-Schrodinger-equation
 ```
+For the next steps, you need to be in the newly created folder, otherwise it won't work :)
 ### compile C++ files
 using the makefile:
 ```bash
@@ -61,7 +62,7 @@ make
 ```
 without makefile:
 ```bash
-c++ file.cpp -o main.exe
+c++ main.cpp -o main.exe
 ```
 ### execute C++
 ```bash
