@@ -5,11 +5,37 @@ A basic study of bound states, energy levels given the schrödinger's equation, 
 We analyse a static potential V(x) a very particular case in reality.
 we seek a solution to the separable Schrodinger equation in x,t:
 
-$$
-\psi(x) = \phi(x) T (t)
-$$
+```math
+\psi(x) = \phi(x) T(t)
+```
+Knowing that the Hamilton operator has the form:
+```math
+\hat H \psi(x,t) \equiv - \frac{\hbar^2}{2m}\nabla^2 + V(x)
+```
+
 Given the schrodinger's equation:
+```math
+i \hbar \frac{\partial}{\partial t} \psi(x,t)= \hat H \psi(x,t)
+```
+Putting all together we find 
+```math
+\phi(x)\cdot i \hbar \frac{\partial T}{\partial t} = T(t) \hat H \phi(x)
+```
+With some algebraic simplifications, it can be reduced to the form
+```math
+\hat H \phi(x) = E \phi(x)
+```
+This is an eigenvalue equation so we can use some eigenvalue solver to find the energy levels of the system.
+E is the total energy of the system, it's a constant so therefore exist stationary states where :
+```math
+\psi(x,t) = \phi(x) e^{-\frac{iEt}{\hbar}}
+```
+These are considered stationary because 
+```math
+|\psi(x,t)|^2 = |\phi(x)|^2
+```
+is time indipendent.
 
 
-##Installation
+## Installation
 for this particular case we'll need only the most common libraries of C++ and Python
