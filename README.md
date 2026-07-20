@@ -41,14 +41,35 @@ is time indipendent.
 ## Installation
 for this particular case we'll need only the most common libraries of C++ and Python
 
-## Execution
-CLone the repo
+## HOW TO USE
+The project include:
+- main part (calculations and output) written in C++ 
+- Data visualization written in Python using matplotlib
+
+Installing Matplotlib:
+
+
+Clone the repo:
 ```bash
 git clone https://github.com/michele2938/nome-progetto.git
 cd nome 
 ```
-compile:
+### compile C++ files
 using the makefile:
+```bash
+make
+```
+without makefile:
+```bash
+c++ file.cpp -o main.exe
+```
+### execute C++
+```bash
+./main
+```
+
+### compile Python
+
 
 ## Results
 
