@@ -49,6 +49,10 @@ Installing Python dependences:
 ```bash
 pip install -r libraries.txt
 ```
+Installing GIT:
+```bash
+apt-get install git3
+```
 Clone the repo:
 ```bash
 git clone https://github.com/michele2938/Stationary-Schrodinger-equation.git
