@@ -75,6 +75,18 @@ python3 plot.py
 ```
 
 ## Results
+Using as physical parameters:
+- mL = 8.0 (dimensionless)
+- A = B = 0 (boundary condition)
+```math
+V(x)=\left\{
+\substack{
+0,\quad x<\frac{L}{4}\ \text{,}\ x\ge\frac{3L}{4}\\[4pt]
+-V_0,\quad \frac{L}{4}\le x<\frac{3L}{4}
+}
+\right.
 
+
+```
 ## References
 Quantum Mechanics  - Cohen-Tannoudji
