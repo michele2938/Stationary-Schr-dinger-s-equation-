@@ -89,7 +89,7 @@ V(x)=\left\{
 -V_0,\quad \frac{L}{4}\le x<\frac{3L}{4}
 }
 \right.
-
+Follows
 
 ```
 ## References
